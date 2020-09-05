@@ -6,6 +6,7 @@ import Fields from "./customerRegSpec";
 import Form from "./form";
 function CustomerReg(props) {
   return (
+    //Sample Comment
     <div>
       <Header />
       <div class="container">
