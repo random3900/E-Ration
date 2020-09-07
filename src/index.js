@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 //import ItemsList from "./components/itemsList.js";
 //import Home from "./components/home.js";
 //import CustomerReg from "./components/customerReg.js";
-import FpsshopReg from "./components/fpsshopReg.js";
+import AadharReg from "./components/aadharReg.js";
 ReactDOM.render(
   <div>
     {/* <ItemsList /> */}
     {/* <Home /> */}
     {/*<CustomerReg />*/}
-    <FpsshopReg />
+    <AadharReg />
   </div>,
 
   document.getElementById("root")
