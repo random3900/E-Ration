@@ -14,6 +14,5 @@ ReactDOM.render(
 
   document.getElementById("root")
 );
-//Sample Comment
+//Sample code
 //sampleeeeeing
-//Sample Comment 3
