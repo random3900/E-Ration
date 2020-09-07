@@ -5,9 +5,9 @@ const Fields = {
     { name: "Last Name", type: "text" }
   ],
   FathernameFields: [
-    { name: "First Name", type: "text" },
-    { name: "Middle Name", type: "text" },
-    { name: "Last Name", type: "text" }
+    { name: "First Fathername", type: "text" },
+    { name: "Middle Fathername", type: "text" },
+    { name: "Last Fathername", type: "text" }
   ],
 
   AadharNumberFields: [{ name: "Aadhar number", type: "number" }],
