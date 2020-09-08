@@ -22,8 +22,8 @@ class inventory extends React.Component {
           <div class="col"> Item Remaining </div>
         </div>
         <div class="row">
-          <div class="col"> | Item ID | </div>
-          <div class="col"> | Unit of Measurement | </div>
+          <div class="col"> Item ID </div>
+          <div class="col"> Unit of Measurement </div>
           <div class="col"> fps_id </div>
           <div class="col"> Item Name </div>
           <div class="col"> Item Remaining </div>
