@@ -4,14 +4,16 @@ import ReactDOM from "react-dom";
 //import Home from "./components/home.js";
 //import CustomerReg from "./components/customerReg.js";
 //import AadharReg from "./components/aadharReg.js";
-import Inventory from "./components/inventory.js";
+//import Inventory from "./components/inventory.js";
+import Transactions from "./components/transactions.js";
 ReactDOM.render(
   <div>
     {/* <ItemsList /> */}
     {/* <Home /> */}
     {/*<CustomerReg />*/}
     {/* <AadharReg /> */}
-    <Inventory />
+    {/* <Inventory /> */}
+    <Transactions />
   </div>,
 
   document.getElementById("root")
