@@ -5,13 +5,15 @@ import ReactDOM from "react-dom";
 //import CustomerReg from "./components/customerReg.js";
 //import AadharReg from "./components/aadharReg.js";
 //import FpsshopReg from "./components/fpsshopReg.js";
-import Logoftrips from "./components/logoftrips.js";
+//import Logoftrips from "./components/logoftrips.js";
+import FpsstaffReg from "./components/fpsstaffReg.js";
 //import Inventory from "./components/inventory.js";
 //import Transactions from "./components/transactions.js";
 ReactDOM.render(
   <div>
     {/* <ItemsList /> */}
-    <Logoftrips />
+    {/* <Logoftrips /> */}
+    <FpsstaffReg />
     {/* < FpsshopReg/> */}
     {/* <Home /> */}
     {/*<CustomerReg />*/}

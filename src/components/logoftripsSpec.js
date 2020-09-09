@@ -4,7 +4,7 @@ const Fields = {
   idField: [
     { name: "SS ID", type: "number" },
     { name: "FPS ID", type: "number" },
-    { name: "Staff ID", type: " number" }
+    { name: "Transporter ID", type: " number" }
   ],
 
   nameFields: [
