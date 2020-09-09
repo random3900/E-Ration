@@ -6,14 +6,17 @@ import ReactDOM from "react-dom";
 //import AadharReg from "./components/aadharReg.js";
 //import FpsshopReg from "./components/fpsshopReg.js";
 //import Logoftrips from "./components/logoftrips.js";
-import FpsstaffReg from "./components/fpsstaffReg.js";
+//import Inventory from "./components/inventory.js";
+//import FpsstaffReg from "./components/fpsstaffReg.js";
 //import Inventory from "./components/inventory.js";
 //import Transactions from "./components/transactions.js";
+import Menu from "./components/menu";
+
 ReactDOM.render(
-  <div>
+  <div style={{ backgroundColor: "#e8d6cc" }}>
     {/* <ItemsList /> */}
     {/* <Logoftrips /> */}
-    <FpsstaffReg />
+    <Menu />
     {/* < FpsshopReg/> */}
     {/* <Home /> */}
     {/*<CustomerReg />*/}
