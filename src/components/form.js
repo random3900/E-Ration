@@ -18,7 +18,7 @@ function Form(props) {
       <form>
         <div class="row">{props.fields.map(createForm)}</div>
       </form>
-      <br/>
+      <br />
     </div>
   );
 }
