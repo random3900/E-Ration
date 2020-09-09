@@ -2,7 +2,6 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer";
-import BG from "./bg1.jpg";
 function Home(props) {
   return (
     <div style={{ backgroundColor: "#e8d6cc" }}>
@@ -18,7 +17,7 @@ function Home(props) {
             fontFamily: "serif",
             fontSize: "4.5vh",
             color: "#343a40",
-            margin: 0,
+            margin: 0
           }}
         >
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,7 +34,10 @@ function Home(props) {
           <div
             class="container"
             style={{
-              backgroundImage: "url(" + BG + ")",
+              backgroundImage:
+                "url(" +
+                "https://images.pexels.com/photos/3952050/pexels-photo-3952050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" +
+                ")",
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -43,7 +45,7 @@ function Home(props) {
               height: "75vh",
               width: "38vw",
               margin: "0vh 0vh 3.0vh 3.0vh",
-              padding: 0,
+              paddingTop: "10vh",
               borderRadius: "5px"
             }}
           ></div>
