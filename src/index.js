@@ -24,7 +24,8 @@ ReactDOM.render(
     {/* <Inventory /> */}
     {/* <Transactions /> */}
     {/* <Menu /> */}
-    {/* <StateSupervisor /> */}
+    {/* <StateSupervisor />
+     */}
   </div>,
 
   document.getElementById("root")
