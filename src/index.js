@@ -11,6 +11,7 @@ import Home from "./components/home.js";
 // import Inventory from "./components/inventory.js";
 // import Transactions from "./components/transactions.js";
 //import Menu from "./components/menu";
+// import StateSupervisor from "./components/StateSupervisor.js";
 
 ReactDOM.render(
   <div style={{ backgroundColor: "#e8d6cc" }}>
@@ -23,6 +24,7 @@ ReactDOM.render(
     {/* <Inventory /> */}
     {/* <Transactions /> */}
     {/* <Menu /> */}
+    {/* <StateSupervisor /> */}
   </div>,
 
   document.getElementById("root")
