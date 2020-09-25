@@ -21,59 +21,61 @@ class Menu extends React.Component {
   render() {
     return (
       <Router>
-        <div>
-          <Header />
+        <main>
+          <div>
+            <Header />
 
-          <div className="row">
-            <div className="col">
-              <Link to="/customer">
-                <MenuIcon item="Customer" />
-              </Link>
+            <div className="row">
+              <div className="col">
+                <Link to="/customer" replace>
+                  <MenuIcon item="Customer" />
+                </Link>
+              </div>
+              <div className="col">
+                <Link to="/fpsshop">
+                  <MenuIcon item="FPSShop" />
+                </Link>
+              </div>
+              <div className="col">
+                <Link to="/fpsstaff">
+                  <MenuIcon item="FPSStaff" />
+                </Link>
+              </div>
+              <div className="col">
+                <Link to="/aadhar">
+                  <MenuIcon item="Aadhar" />
+                </Link>
+              </div>
             </div>
-            <div className="col">
-              <Link to="/fpsshop">
-                <MenuIcon item="FPSShop" />
-              </Link>
+            <div className="row">
+              <div className="col">
+                <Link to="/inventory">
+                  <MenuIcon item="Inventory" />
+                </Link>
+              </div>
+              <div className="col">
+                <Link to="/trips">
+                  <MenuIcon item="Trips" />
+                </Link>
+              </div>
+              <div className="col">
+                <Link to="/transactions">
+                  <MenuIcon item="Transactions" />
+                </Link>
+              </div>
             </div>
-            <div className="col">
-              <Link to="/fpsstaff">
-                <MenuIcon item="FPSStaff" />
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/aadhar">
-                <MenuIcon item="Aadhar" />
-              </Link>
-            </div>
+            <Footer />
           </div>
-          <div className="row">
-            <div className="col">
-              <Link to="/inventory">
-                <MenuIcon item="Inventory" />
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/trips">
-                <MenuIcon item="Trips" />
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/transactions">
-                <MenuIcon item="Transactions" />
-              </Link>
-            </div>
-          </div>
-          <Footer />
           <Switch>
-            <Route path="/customer" Component={CustomerReg}></Route>
-            <Route path="/fpsshop" Component={FpsShopReg}></Route>
-            <Route path="/fpsstaff" Component={FpsStaffReg}></Route>
-            <Route path="/aadhar" Component={AadharReg}></Route>
-            <Route path="/inventory" Component={Inventory}></Route>
-            <Route path="/trips" Component={LogOfTrips}></Route>
-            <Route path="/transactions" Component={Accounts}></Route>
+            <Route path="/customer" component={CustomerReg} />
+            <Route path="/fpsshop" component={FpsShopReg} />
+            <Route path="/fpsstaff" component={FpsStaffReg} />
+            <Route path="/aadhar" component={AadharReg} />
+            <Route path="/inventory" component={Inventory} />
+            <Route path="/trips" component={LogOfTrips} />
+            <Route path="/transactions" component={Accounts} />
           </Switch>
-        </div>
+        </main>
       </Router>
     );
   }
