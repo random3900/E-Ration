@@ -29,14 +29,14 @@ const Fields = {
   ],
 
   bankdetailsField: [
-    { name: "Account number", type: "number" },
-    { name: "IFSC code", type: "number" }
+    { name: "Account number", type: "text" },
+    { name: "IFSC code", type: "text" }
   ],
 
   idField: [
-    { name: "SS ID", type: "number" },
-    { name: "FPS ID", type: "number" },
-    { name: "Staff ID", type: " number" }
+    { name: "SS ID", type: "text" },
+    { name: "FPS ID", type: "text" },
+    { name: "Staff ID", type: "text" }
   ]
 };
 
