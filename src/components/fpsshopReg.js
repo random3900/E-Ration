@@ -4,6 +4,7 @@ import Heading from "./heading";
 import Footer from "./footer";
 import Fields from "./fpsshopRegSpec";
 import Form from "./form";
+//import ExecuteQuery from "./db";
 
 class fpsshopReg extends React.Component {
   constructor() {
@@ -85,10 +86,58 @@ class fpsshopReg extends React.Component {
 
     return "0";
   }
-  insertIntoSQL(inputs, tablename) {}
+  insertIntoSQL(inputs) {
+    // var query =
+    //   "INSERT INTO FPS_SHOP_PHONE_NUMBER VALUES('" +
+    //   inputs["FPS ID"] +
+    //   "', '" +
+    //   inputs["Phone Number 1"] +
+    //   "');";
+    // ExecuteQuery(query);
+    
+    // var query =
+    //   "INSERT INTO FPS_SHOP_PHONE_NUMBER VALUES('" +
+    //   inputs["FPS ID"] +
+    //   "', '" +
+    //   inputs["Phone Number 2"] +
+    //   "');";
+    // ExecuteQuery(query);
+    
+    // var query =
+    //   "INSERT INTO ACCOUNTS VALUES('" +
+    //   inputs["Account number"] +
+    //   "', '" +
+    //   inputs["IFSC code"] +
+    //   "', 0.00);";
+    // ExecuteQuery(query);
+    
+    // var query =
+    //   "INSERT INTO FPS_SHOPS VALUES('" +
+    //   inputs["FPS ID"] +
+    //   "', '" +
+    //   inputs["First Name"] +
+    //   " " +
+    //   inputs["Middle Name"] +
+    //   " " +
+    //   inputs["Last Name"] +
+    //   "', '" +
+    //   inputs["Staff ID"] +
+    //   "', '" +
+    //   inputs["SS ID"] +
+    //   "', '" +
+    //   inputs["City/Town/Village"] +
+    //   "', " +
+    //   inputs["No of Customers"] +
+    //   ", '" +
+    //   inputs["FPS Account Number"] +
+    //   "');";
+    // ExecuteQuery(query);
+    alert("Values Inserted");
+  }
   insertValues() {
     console.log(this.validateInput(this.state));
-    //this.insertIntoSQL(this.state, this.newMethod());
+    if (this.validateInput(this.state) === "0") this.insertIntoSQL(this.state);
+    else alert(this.validateInput(this.state));
   }
   newMethod() {
     return "Customer";
