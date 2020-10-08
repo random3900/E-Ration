@@ -17,42 +17,36 @@ class inventory extends React.Component {
         <div class="row">
           <div class="col"> Item ID </div>
           <div class="col"> Unit of Measurement </div>
-          <div class="col"> fps_id </div>
           <div class="col"> Item Name </div>
           <div class="col"> Item Remaining </div>
         </div>
         <div class="row">
           <div class="col"> IT001 </div>
           <div class="col"> kilogram </div>
-          <div class="col"> FPS001 </div>
           <div class="col"> Rice </div>
           <div class="col"> 800 </div>
         </div>
         <div class="row">
           <div class="col"> IT002 </div>
           <div class="col"> kilogram </div>
-          <div class="col"> FPS002 </div>
           <div class="col"> Sugar </div>
           <div class="col"> 490 </div>
         </div>
         <div class="row">
           <div class="col"> IT003 </div>
           <div class="col"> kilogram </div>
-          <div class="col"> FPS003</div>
           <div class="col"> Wheat </div>
           <div class="col"> 655 </div>
         </div>
         <div class="row">
           <div class="col"> IT005 </div>
           <div class="col"> litre </div>
-          <div class="col"> FPS005 </div>
           <div class="col"> Kerosene </div>
           <div class="col"> 301 </div>
         </div>
         <div class="row">
           <div class="col"> IT004</div>
           <div class="col"> Litre </div>
-          <div class="col"> FPS004 </div>
           <div class="col"> palmolein oil</div>
           <div class="col"> 453 </div>
         </div>
